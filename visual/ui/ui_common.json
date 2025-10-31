@@ -7,5 +7,13 @@
 
   "screen_background": {
     "alpha": 0.75
+  },
+
+  "text_edit_box": {
+    "place_holder_text_hover_color": "$place_holder_text_color"
+  },
+
+  "transparent_text_edit_box": {
+    "place_holder_text_hover_color": "$place_holder_text_color"
   }
 }

@@ -1,5 +1,14 @@
 {
   "namespace": "command_block",
+  
+  "paste_button": {
+    "ignored": true
+  },
+
+  "block_type_panel": {
+    "$button_content": "command_block.icon_dropdown_toggle_button_state_content",
+    "$button_type_panel": "settings_common.default_options_dropdown_toggle_button_state_content"
+  },
 
   "right_scroll_panel_content/nearest_label": {
     "ignored": true

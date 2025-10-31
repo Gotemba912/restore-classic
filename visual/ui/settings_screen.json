@@ -27,7 +27,7 @@
     "anchor_to": "top_left",
     "orientation": "vertical",
     "$default_selector_toggle_index": 0,
-    "$spatialPatternsPadding": [ "100%", 25 ],
+    "$spatialPatternsPadding": [ 0, 0 ],
     "ttsSectionContainer": true,
     "controls": [
 
@@ -76,7 +76,7 @@
           "$social_section_header": "options.social",
           "$general_section_header": "stat.generalButton",
           "$debug_section_header": "options.debug",
-          "$spatialPatternsPadding": [ "100%", 25 ],
+          "$spatialPatternsPadding": [ 0, 0 ],
           "controls": [
 
             // Controls Section //

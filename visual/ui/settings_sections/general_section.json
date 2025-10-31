@@ -214,5 +214,25 @@
         }
       }
     ]
+  },
+  
+  "video_section": {
+    "$spatialPatternsPadding": [ 0, 0 ]
+  },
+  
+  "gamertag_controls": {
+    "$spatialPatternsPadding": [ 0, 0 ]
+  },
+  
+  "advanced_graphics_options_section": {
+    "$spatialPatternsPadding": [ 0, 0 ]
+  },
+  
+  "general_tab_section": {
+    "$spatialPatternsPadding": [ 0, 0 ]
+  },
+  
+  "account_section": {
+    "$spatialPatternsPadding": [ 0, 0 ]
   }
 }

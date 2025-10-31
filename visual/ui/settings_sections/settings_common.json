@@ -1,5 +1,27 @@
 {
+  "namespace": "settings_common",
+  
+  "dropdown_chevron_image": {
+    "$alpha|default": 1.0,
+    "type": "image",
+    "layer": 1,
+    "texture": "textures/ui/dropdown_chevron",
+    "size": [ 8, 8 ],
+    "alpha": "$alpha"
+  },
+
   "settings_content/background": {
     "ignored": true
+  },
+
+  "default_options_dropdown_toggle_button_state_content/arrow_panel": {
+    "type": "panel",
+    "layer": 1,
+    "size": [ "100%c", "100%" ],
+    "controls": [
+      {
+        "dropdown_chevron_image@dropdown_chevron_image": {}
+      }
+    ]
   }
 }

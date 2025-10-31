@@ -1,0 +1,33 @@
+{
+  "namespace": "chat",
+
+  "down_arrow_image": {
+    "type": "image",
+    "size": [ 12, 8 ],
+    "texture": "textures/ui/chat_down_arrow",
+    "color": [ 1, 1, 1 ]
+  },
+
+  "keyboard_image": {
+    "type": "image",
+    "size": [ 9, 7 ],
+    "texture": "textures/ui/chat_keyboard"
+  },
+
+  "keyboard_image_panel": {
+    "variables": []
+  },
+
+  "keyboard_button": {
+    "bindings": [
+      {
+        "binding_name": "#keyboard_button_focus_override_up",
+        "binding_name_override": "#focus_change_up"
+      },
+      {
+        "binding_name": "#keyboard_button_focus_override_down",
+        "binding_name_override": "#focus_change_down"
+      }
+    ]
+  }
+}

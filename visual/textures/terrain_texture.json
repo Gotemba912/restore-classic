@@ -6,6 +6,16 @@
   "texture_data": {
     "missing_tile": {
       "textures": "textures/blocks/update_tile"
+    },
+
+    "rev_quartz_block_top": {
+      "textures": "textures/blocks/quartz_block_top"
+    },
+    "rev_quartz_block_bottom": {
+      "textures": "textures/blocks/quartz_block_bottom"
+    },
+    "rev_quartz_block_side": {
+      "textures": "textures/blocks/quartz_block_side"
     }
   }
 }

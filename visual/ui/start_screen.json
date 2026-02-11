@@ -80,6 +80,11 @@
           "bindings": [
             {
               "binding_name": "#version"
+            },
+            {
+              "binding_type": "view",
+              "source_property_name": "('v1.' + (('§z' + #version) - 'v'))",
+              "target_property_name": "#text"
             }
           ]
         }

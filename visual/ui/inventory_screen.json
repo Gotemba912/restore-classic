@@ -17,5 +17,170 @@
   "tab_content/tab_content_search_bar_panel/search_and_filter_panel/text_edit_control": {
     "$text_edit_box_label_offset": [ 0, 0 ],
     "$magnifying_glass_enabled" : false
+  },
+  
+  "tab_content/tab_content_search_bar_panel": {
+    "type": "stack_panel",
+    "size": [ "100% - 12px", "100% - 12px" ],
+    "orientation": "vertical",
+    "controls": [
+      {
+        "vertical_padding_1@crafting.tab_content_padding": {
+          "size": [ 0, 2 ]
+        }
+      },
+      {
+        "creative_label_and_filter_toggle_holder": {
+          "type": "stack_panel",
+          "size": [ "100% + 1px", 10 ],
+          "orientation": "horizontal",
+          "bindings": [
+            {
+              "binding_name": "(not #is_left_tab_inventory)",
+              "binding_name_override": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "padding_1": {
+                "type": "panel",
+                "size": [ 3, 0 ]
+              }
+            },
+            {
+              "creative_label@crafting.creative_label": {
+                "size": [ "fill", "100%" ]
+              }
+            },
+            {
+              "padding_2": {
+                "type": "panel",
+                "size": [ 2, 0 ]
+              }
+            },
+            {
+              "filter_toggle_holder": {
+                "type": "panel",
+                "size": [ "100%c", "100%" ],
+                "bindings": [
+                  {
+                    "binding_name": "#is_creative_mode"
+                  },
+                  {
+                    "binding_name": "#is_left_tab_search"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "(not #is_creative_mode and not #is_left_tab_search)",
+                    "target_property_name": "#visible"
+                  }
+                ],
+                "controls": [
+                  {
+                    "filter_toggle@crafting.filter_toggle": {
+                      "offset": [ 1, -1 ],
+                      "anchor_from": "right_middle",
+                      "anchor_to": "right_middle",
+                      "$focus_id": "craftable_toggle",
+                      "$focus_override_left": "recipe_search_bar",
+                      "$default_border_visible": false,
+                      "$hover_border_visible": false
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "vertical_padding_2@crafting.tab_content_padding": {
+          "size": [ 0, 1 ]
+        }
+      },
+      {
+        "search_and_filter_panel": {
+          "type": "stack_panel",
+          "orientation": "horizontal",
+          "size": [ "100% + 1px", 16 ],
+          "layer": 2,
+          "bindings": [
+            {
+              "binding_name": "#is_left_tab_search",
+              "binding_name_override": "#visible"
+            }
+          ],
+          "controls": [
+            {
+              "text_edit_control@common.text_edit_box": {
+                "size": [ "fill", "100%" ],
+                "property_bag": {
+                  "#property_field": "#item_name"
+                },
+                "max_length": 30,
+                "$text_edit_binding_name": "#text_box_item_name",
+                "$text_edit_box_label_size": [ "default", 10 ],
+                "$text_edit_box_label_offset": [ 10, 0 ],
+                "$text_edit_box_hovered_button_id": "button.search_bar_hovered",
+                "$text_edit_box_clear_to_button_id": "button.search_bar_clear",
+                "$text_edit_box_selected_to_button_id": "button.search_bar_selected",
+                "$text_edit_box_deselected_to_button_id": "button.search_bar_deselected",
+                "$text_clear_button_enabled" : true,
+                "$text_clear_button_size": [ 15, 15 ],
+                "$text_clear_button_offset": [ 2, 0 ],
+                "$magnifying_glass_enabled" : true,
+                "$magnifying_glass_size": [ 8, 8 ],
+                "$magnifying_glass_offset": [0, -0.5],
+                "focus_wrap_enabled": false,
+                "$focus_id": "recipe_search_bar",
+                "$focus_override_right": "craftable_toggle",
+                "$focus_override_up": "construction_tab"
+              }
+            },
+            {
+              "padding_1": {
+                "type": "panel",
+                "size": [ 1, 0 ]
+              }
+            },
+            {
+              "filter_toggle_holder": {
+                "type": "panel",
+                "size": [ "100%c", "100%" ],
+                "bindings": [
+                  {
+                    "binding_name": "(not #is_creative_mode)",
+                    "binding_name_override": "#visible"
+                  }
+                ],
+                "controls": [
+                  {
+                    "filter_toggle@crafting.filter_toggle": {
+                      "offset": [ 1, 0 ],
+                      "anchor_from": "right_middle",
+                      "anchor_to": "right_middle",
+                      "$focus_id": "craftable_toggle",
+                      "$focus_override_left": "recipe_search_bar",
+                      "$default_border_visible": false,
+                      "$hover_border_visible": false
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "vertical_padding_3@crafting.tab_content_padding": {
+          "size": [ 0, 2 ]
+        }
+      },
+      {
+        "scroll_pane@$scrolling_pane_control": {
+          "size": [ "100%", "fill" ]
+        }
+      }
+    ]
   }
 }

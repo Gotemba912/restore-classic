@@ -112,13 +112,8 @@
     "$focus_override_right": "FOCUS_OVERRIDE_STOP",
     "bindings": [
       {
-        "binding_name": "#invite_button_visible",
-        "binding_name_override": "#visible",
-        "binding_type": "global"
-      },
-      {
         "binding_name": "#invite_button_enabled",
-        "binding_name_override": "#enabled"
+        "binding_name_override": "#visible"
       }
     ]
   },
@@ -463,18 +458,8 @@
             },
             { "settings_button@pause_v16.settings_button": {} },
             { "settings@pause_v16.vertical_padding": {} },
-            { "store_button@pause_v16.store_button": {} },
-            {
-              "store@pause_v16.vertical_padding": {
-                "bindings": [
-                  {
-                    "binding_name": "#store_button_visible",
-                    "binding_name_override": "#visible",
-                    "binding_type": "global"
-                  }
-                ]
-              }
-            },
+            { "feedback_button@pause_v16.feedback_button": {} },
+            { "feedback@pause_v16.vertical_padding": {} },
             { "quit_button@pause_v16.quit_button": {} }
           ]
         }

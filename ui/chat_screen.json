@@ -1,6 +1,10 @@
 {
   "namespace": "chat",
 
+  "new_messages_button": {
+    "ignored": true
+  },
+  
   "down_arrow_image": {
     "type": "image",
     "size": [ 12, 8 ],

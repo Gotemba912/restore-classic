@@ -1,17 +1,17 @@
 {
   "format_version": 2,
   "header": {
-    "name": "RestoreClassic: Visual v1.1.1",
-    "description": "色々変わったUIやモブの見た目などをできる限り元に戻しました!!\nby Yuka0745",
+    "name": "RestoreClassic v1.1.2",
+    "description": "色々変わったUIや見た目、サウンドをできる限り元に戻しました!!\nby Yuka0745",
     "uuid": "3f796362-53cd-4571-ae1e-e8e4bd146f89",
-    "version": [ 1, 1, 1 ],
+    "version": [ 1, 1, 2 ],
     "min_engine_version": [ 1, 13, 0 ]
   },
   "modules": [
     {
       "type": "resources",
       "uuid": "0e4bcca8-eb92-46a9-82c0-aeaa64888d2f",
-      "version": [ 1, 1, 1 ]
+      "version": [ 1, 1, 2 ]
     }
   ]
 }

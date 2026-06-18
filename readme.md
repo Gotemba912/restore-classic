@@ -1,11 +1,11 @@
-# Restore Classic ![ダウンロード](https://img.shields.io/github/downloads/YuuhaLand/restore-classic/total?style=plastic)
+# Restore Classic ![ダウンロード](https://img.shields.io/github/downloads/Gotemba912/restore-classic/total?style=plastic)
 このリソースパックは、色々変わってしまったマイクラ統合版のUIの見た目や、ブロックなどのテクスチャ、サウンドなどを**できる限り**昔のような感じに戻すリソースパックです！  
 できる限り、なので元に戻しきれない所もありますがその辺はご了承ください。
 
 なお、このリソースパックは「v1.16」時代のUIに戻すことを目標に作っております。 
 
 ## 対応バージョン
-v1.26.0
+v1.26.30
 
 ## おすすめ設定
 このリソースパックを使う時は、以下の設定を変更しておくことをおすすめします！
@@ -23,21 +23,10 @@ v1.26.0
   - 画面のアニメーションを ON
   - UIプロフィールを `クラシック`
   - 特大 GUI スケーリングを OFF
-- 言語設定
-  - [`ja_AA`](https://youtu.be/F2bm7rNjtr0) または `英語`
 - チャット設定
   - エモート チャットをミュートを ON
   - フォントを `Mojangles`
   - 行の間隔を `x1.0`
-
-## mcaddonの中身
-このリポジトリ・mcaddonには2つのリソースパックが入っております！  
-RestoreClassic: Visualと、 RestoreClassic: Soundsの２つです！
-
-Visualは、UI、日本語lang、テクスチャを昔に戻すリソースパックです！  
-Soundsは、サウンドを昔に戻すリソースパックです！
-
-お好みに合わせて使ってください！
 
 ## リソースパックを適用すると変わること
 ### UI
@@ -106,17 +95,17 @@ Soundsは、サウンドを昔に戻すリソースパックです！
 
 ## ビフォーアフター比較
 タイトル画面
-![タイトル画面](https://raw.githubusercontent.com/GotembaYuka/files/refs/heads/main/restore-classic/hikaku1.png)
+![タイトル画面](https://raw.githubusercontent.com/Gotemba912/files/refs/heads/main/restore-classic/hikaku1.png)
 設定画面
-![設定画面](https://raw.githubusercontent.com/GotembaYuka/files/refs/heads/main/restore-classic/hikaku2.png)
+![設定画面](https://raw.githubusercontent.com/Gotemba912/files/refs/heads/main/restore-classic/hikaku2.png)
 ゲーム画面
-![ゲーム画面](https://raw.githubusercontent.com/GotembaYuka/files/refs/heads/main/restore-classic/hikaku3.png)
+![ゲーム画面](https://raw.githubusercontent.com/Gotemba912/files/refs/heads/main/restore-classic/hikaku3.png)
 インベントリ画面
-![インベントリ画面](https://raw.githubusercontent.com/GotembaYuka/files/refs/heads/main/restore-classic/hikaku4.png)
+![インベントリ画面](https://raw.githubusercontent.com/Gotemba912/files/refs/heads/main/restore-classic/hikaku4.png)
 ポーズ画面
-![ポーズ画面](https://raw.githubusercontent.com/GotembaYuka/files/refs/heads/main/restore-classic/hikaku5.png)
+![ポーズ画面](https://raw.githubusercontent.com/Gotemba912/files/refs/heads/main/restore-classic/hikaku5.png)
 オーディオ設定画面
-![オーディオ設定画面](https://raw.githubusercontent.com/GotembaYuka/files/refs/heads/main/restore-classic/hikaku6.png)
+![オーディオ設定画面](https://raw.githubusercontent.com/Gotemba912/files/refs/heads/main/restore-classic/hikaku6.png)
 
 ## マイクラのアプデによって動かなくなる可能性があります！
 マイクラのUIはたまに破壊的変更が加わり、このリソースパックがうまく動かなくなる可能性があります！  
@@ -134,6 +123,6 @@ Soundsは、サウンドを昔に戻すリソースパックです！
 また、このリソースパックにはバニラのリソースパックから拝借したものがあります。
 
 ## ダウンロードはこちら
-- [Github Releases](https://github.com/GotembaYuka/restore-classic/releases/latest)にて配布しております！
+- [Github Releases](https://github.com/Gotemba912/restore-classic/releases/latest)にて配布しております！
 
 ## パック製作者: Yuka0745

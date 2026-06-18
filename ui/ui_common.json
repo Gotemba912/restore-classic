@@ -5,6 +5,10 @@
     "$font_type": "default"
 	},
 
+  "minecraftTenLabel": {
+    "backup_font_type": "default"
+  },
+
   "screen_background": {
     "alpha": 0.75
   },

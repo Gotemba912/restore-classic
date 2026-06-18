@@ -1,6 +1,26 @@
 {
   "namespace": "store_layout",
 
+  "styled_nav_label_panel_minecraftTen": {
+    "type": "panel",
+    "size": [ "fill", "100%" ],
+    "controls": [
+      {
+        "button_text_label@store_layout.default_styled_button_text_label": {
+          "font_type": "MinecraftTen",
+          "backup_font_type": "default",
+          "variables": [
+            {
+              "requires": "(not $is_low_memory_device)",
+              "$button_font_scale_factor": 1.39,
+              "$new_ui_label_offset": [ 0, -2 ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+
   "profile_bg": {
     "type": "image",
     "fill": true,

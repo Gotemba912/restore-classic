@@ -30,6 +30,36 @@
     "ignored": true
   },
 
+  "local_world_text_panel/text_indent/bottom_side": {
+    "controls": [
+      {
+        "pad": {
+          "type": "panel",
+          "size": [ 3, "100%" ]
+        }
+      },
+      {
+        "local_world_game_mode@play.local_world_game_mode": {
+          "size": [ "fill", 10 ],
+          "layer": 1
+        }
+      },
+      {
+        "local_world_connected_storage@play.local_world_connected_storage": {
+          "size": [ 16, 8 ],
+          "visible": false,
+          "layer": 1
+        }
+      },
+      {
+        "local_world_filesize@play.local_world_filesize": {
+          "size": [ "default", 10 ],
+          "layer": 1
+        }
+      }
+    ]
+  },
+
 
   "network_world_player_count": {
     "type": "panel",

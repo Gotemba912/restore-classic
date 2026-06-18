@@ -1,0 +1,52 @@
+{
+  "namespace": "csb_subscription_panel",
+
+  "csb_marketplace_benefit": {
+    "type": "stack_panel",
+    "orientation": "horizontal",
+    "size": [ "100%", "100%cm" ],
+    "$benefit|default": "",
+    "controls": [
+      {
+        "bullet_holder_01": {
+          "type": "stack_panel",
+          "orientation": "vertical",
+          "size": [ "10%", "100%c" ],
+          "controls": [
+            {
+              "bullet_spacer": {
+                "type": "panel",
+                "size": [ "100%", 1 ]
+              }
+            },
+            {
+              "bullet_01": {
+                "type": "label",
+                "text": "●",
+                "font_type": "smooth",
+                "backup_font_type": "default",
+                "color": "$generic_button_text_color",
+                "text_alignment": "center",
+                "font_scale_factor": 0.5,
+                "size": [ "100%", "default" ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "panel_details_ln1": {
+          "type": "label",
+          "anchor_from": "top_right",
+          "anchor_to": "top_right",
+          "text": "$benefit",
+          "font_type": "smooth",
+          "backup_font_type": "default",
+          "color": "$generic_button_text_color",
+          "text_alignment": "left",
+          "size": [ "90%", "default" ]
+        }
+      }
+    ]
+  }
+}

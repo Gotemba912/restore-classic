@@ -10474,3 +10474,33 @@ hbui.PlayerCard.dressingRoomButton=プロフィール
 
 
 hbui.Notifications.experimentsWarning.informationMessage=開発中の機能を試します。世界を生成後は OFF にできません。
+
+
+hbui.gameplay.DeathScreen.enumeration=%1$s/%2$s
+hbui.gameplay.DeathScreen.exitWorldButton=ワールドから退出する
+hbui.gameplay.DeathScreen.exitWorldButtonInputLegend=ワールドから退出する
+hbui.gameplay.DeathScreen.gameMenu=メイン メニュー
+hbui.gameplay.DeathScreen.gameMenuInputLegend=開く
+hbui.gameplay.DeathScreen.gameOverNarrationTitle=死んでしまった! 画面
+hbui.gameplay.DeathScreen.gameOverTitle=死んでしまった!
+hbui.gameplay.DeathScreen.narrationTitle=死んでしまった! 画面
+hbui.gameplay.DeathScreen.open=開く
+hbui.gameplay.DeathScreen.respawn=復活
+hbui.gameplay.DeathScreen.respawning=世界を生成中
+hbui.gameplay.DeathScreen.respawnInputLegend=リスポーン
+hbui.gameplay.DeathScreen.savingWorld=保存中...
+hbui.gameplay.DeathScreen.select=選択
+hbui.gameplay.DeathScreen.spectateWorldButton=ワールドを観戦する
+hbui.gameplay.DeathScreen.spectateWorldInputLegend=ワールドを観戦する
+hbui.gameplay.DeathScreen.youDied=死んでしまった!
+
+
+
+hbui.MainMenu.DressingRoomButton.inputLegend=更衣室
+hbui.MainMenu.DressingRoomButton.label=更衣室
+hbui.MainMenu.ExitModal.cancelButtonText=キャンセル
+hbui.MainMenu.ExitModal.confirmButtonText=OK
+hbui.MainMenu.ExitModal.contentText=Minecraft を終了しますか?
+hbui.MainMenu.ExitModal.title= 
+hbui.MainMenu.PlayButton.inputLegend=遊ぶ
+hbui.MainMenu.PlayButton.label=遊ぶ

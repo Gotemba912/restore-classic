@@ -5,6 +5,122 @@
     "alpha": 0.65
   },
 
+  "hotbar_slots_renderer": {
+    "ignored": true
+  },
+  
+
+  "gui_hotbar_grid_item": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_back",
+        "value": [
+          {
+            "hotbar_renderer@hud.hotbar_renderer": {}
+          }
+        ]
+      }
+    ]
+  },
+
+  "gui_hotbar_grid_item_pocket": {
+    "type": "panel",
+    "layer": 1,
+    "size": [ "11.11%", "100%" ],
+    "anchor_to": "top_left",
+    "anchor_from": "top_left",
+    "$stack_count_required|default": true,
+    "$durability_bar_required|default": true,
+    "$storage_bar_required|default": true,
+    "controls": [
+      {
+        "hotbar_slot_selected_image@hotbar_slot_selected_image": {
+          "size": [ "120%", "120%" ]
+        }
+      },
+      {
+        "hotbar_renderer@hotbar_renderer": {
+          "$hotbar_renderer_size": [ "105%", "105%" ]
+        }
+      },
+      {
+        "hotbar_parent": {
+          "type": "panel",
+          "controls": [
+            {
+              "item_icon@hotbar_hud_item_icon": {
+                "layer": 3,
+                "size": [ "80%", "80%" ]
+              }
+            },
+            {
+              "item_count@common.stack_count_label": {
+                "layer": 4,
+                "$item_collection_name": "$hotbar_collection_name",
+                "$stack_count_collection_name": "$hotbar_collection_name",
+                "bindings": [
+                  {
+                    "binding_name": "#inventory_stack_count",
+                    "binding_type": "collection",
+                    "binding_collection_name": "$stack_count_collection_name"
+                  }
+                ]
+              }
+            },
+            {
+              "slot_num": {
+                "type": "label",
+                "anchor_to": "top_left",
+                "anchor_from": "top_left",
+                "offset": [ 1.5, 0.5 ],
+                "shadow": true,
+                "text": "#text",
+                "font_type": "UIFont",
+                "font_scale_factor": 0.6,
+                "layer": 4,
+                "bindings": [
+                  {
+                    "binding_collection_name": "hotbar_items",
+                    "binding_type": "collection_details"
+                  },
+                  {
+                    "binding_type": "collection",
+                    "binding_name": "#collection_index",
+                    "binding_collection_name": "hotbar_items"
+                  },
+                  {
+                    "binding_type": "view",
+                    "source_property_name": "('§7' + (#collection_index + 1) + '§z')",
+                    "target_property_name": "#text"
+                  }
+                ]
+              }
+            },
+            {
+              "item_dura@item_durability": {
+                "layer": 5
+              }
+            },
+            {
+              "item_store@item_storage": {
+                "layer": 5
+              }
+            },
+            {
+              "container_item_lock_overlay@hud.container_item_lock_overlay": {
+                "layer": 6,
+                "size": [ 16, 16 ]
+              }
+            }
+          ]
+        }
+      },
+      { "cooldown_renderer@cooldown_renderer": { "layer": 10 } },
+      { "hotbar_slot_button@gui_hotbar_slot_button_prototype": {} }
+    ]
+  },
+
   "player_position": {
     "type": "image",
     "size": [ "100%c", "100%c" ],

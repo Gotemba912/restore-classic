@@ -133,3 +133,10 @@ tips.game.61=You can charge a Respawn Anchor with Glowstone
 tips.game.62=You can breed Hoglins with Crimson Fungus, but it is dangerous!
 
 pauseScreen.playersTitle=%s	#
+
+
+
+hbui.MainMenu.ExitModal.cancelButtonText=Cancel
+hbui.MainMenu.ExitModal.confirmButtonText=OK
+hbui.MainMenu.ExitModal.contentText=Do you want to exit Minecraft?
+hbui.MainMenu.ExitModal.title= 
